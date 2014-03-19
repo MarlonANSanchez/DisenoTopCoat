@@ -28,3 +28,11 @@ form .form_input{
 	width:95%;
 	height:40px;
 }
+
+/* Media Queries */
+
+@media (max-height: 600px) {
+  .form_signin {
+    margin-top: 30%;
+  }
+}
