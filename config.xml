@@ -6,10 +6,10 @@
         id        = "com.sena.app"
         version   = "1.0.0">
 
-    <name>App Sena</name>
+    <name>Diseño TopCoat</name>
 
     <description>
-        Este es un ejemplo de una aplicacion para el Sena.
+        Diseño iniciar Sesion hecho en TopCoat.
     </description>
 
     <author href="http://sena.edu.co" email="soporte@sena.com">
