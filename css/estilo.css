@@ -21,9 +21,8 @@ body{
 
 }
 
-form .form_input{
-	margin: auto;
-	width: 85%;
+.form_input{
+	width: 90%;
 	border-radius: 1px;
 }
 
