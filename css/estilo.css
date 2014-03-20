@@ -1,7 +1,15 @@
+@font-face{
+	font-family: OpenSans;
+	src: "../font/OpenSans-Regular.ttf";
+}
+
+body{
+	font-family: OpenSans;
+}
 .contain{
 	position:relative;
 	margin: auto;
-	width: 95%;
+	width: 90%;
 	
 }
 
@@ -9,18 +17,22 @@
 	background-color:white;
 	border-radius: 6px;
 	padding-top: 25px;
-	margin-top: 15%;
+	margin-top: 25%;
 
 }
 
 form .form_input{
 	margin: auto;
-	width: 95%;
-	border-radius: 0;
+	width: 90%;
+	border-radius: 1px;
 }
 
 .img-underground{
-	width:95%;
+	width:90%;
 	height:40px;
+}
+
+.spacing{
+	margin-top:10px;
 }
 
