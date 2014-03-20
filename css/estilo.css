@@ -8,8 +8,7 @@
 .form_signin{
 	background-color:white;
 	border-radius: 6px;
-	padding-top: 35px;
-	box-shadow: 1px 1px 1px;
+	padding-top: 25px;
 	margin-top: 15%;
 
 }
@@ -18,11 +17,6 @@ form .form_input{
 	margin: auto;
 	width: 95%;
 	border-radius: 0;
-}
-
-.header {
-	color: rgba(0,0,0,0.2);
-	font-size: 30px;
 }
 
 .img-underground{
