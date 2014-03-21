@@ -6,6 +6,7 @@
 body{
 	font-family: OpenSans;
 }
+
 .contain{
 	position:relative;
 	margin: auto;
@@ -24,6 +25,8 @@ body{
 .form_input{
 	width: 80%;
 	border-radius: 1px;
+	height: 30px;
+	font-size: 1px;	
 }
 
 .img-underground{
@@ -34,4 +37,5 @@ body{
 .spacing{
 	margin-top:10px;
 }
+
 
