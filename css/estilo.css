@@ -39,7 +39,7 @@ body{
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 400px) {
   .form_signin {
     margin-top: 5px;
   }
