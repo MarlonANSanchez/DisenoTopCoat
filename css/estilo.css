@@ -1,13 +1,15 @@
 /* INICIAR SESION CSS */
 
-
 @font-face{
 	font-family: OpenSans;
 	src: "../font/OpenSans-Regular.ttf";
 }
 
+#indice{
+	background-color: rgba(0,0,0,0.07);
+}
+
 .contain{
-	
 	margin: auto;
 	width: 90% !important;
 }
@@ -15,7 +17,8 @@
 .form_signin{
 	background-color:white;
 	border-radius: 6px;
-	padding-top: 25px;
+	padding-top: 20px;
+	padding-bottom: 15px;
 	margin-top: 40%;
 }
 
@@ -23,7 +26,10 @@
 	border-radius: 0 !important;
 	background-color: orange !important;
 	border: 0 !important;
-	color: white;
+	color: white !important;
+	width: 87%;
+	height: 35px;
+	line-height: 2.2em !important;
 }
 
 .form_input{
@@ -55,11 +61,6 @@
     margin-top: 25px;
   }
 }
-
-
-
-
-
 
 /* HOME CSS */
 
@@ -112,8 +113,7 @@
 
 .notification{
 	height: 20px !important;
-	padding: 0px !important;
-	
+	padding: 1px !important;	
 	width: 20px !important;
 	background-color: orange !important;
 }
@@ -150,3 +150,18 @@
     list-style: none !important;
 }
 
+@media (max-width: 630px){
+	table img{
+		width: 80px;
+		height: 80px;
+	}
+	table p{
+		font-size: 10px;
+	}
+	table td h3{
+		font-size: 13px;
+	}
+	table td h2{
+		font-size: 12px;
+	}
+}
