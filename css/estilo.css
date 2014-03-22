@@ -1,17 +1,15 @@
+/* INICIAR SESION CSS */
+
+
 @font-face{
 	font-family: OpenSans;
 	src: "../font/OpenSans-Regular.ttf";
 }
 
-body{
-	font-family: OpenSans;
-}
-
 .contain{
-	position:relative;
-	margin: auto;
-	width: 90%;
 	
+	margin: auto;
+	width: 90% !important;
 }
 
 .form_signin{
@@ -25,13 +23,14 @@ body{
 	border-radius: 0 !important;
 	background-color: orange !important;
 	border: 0 !important;
+	color: white;
 }
 
 .form_input{
-	width: 80%;
-	border-radius: 1px;
+	width: 80% !important;
+	border-radius: 1px !important;
 	height: 30px !important;
-	font-size: 1px;
+	font-size: 12px !important;
 	line-height: 1.5em !important;
 }
 
@@ -47,6 +46,7 @@ body{
 
 .spacing{
 	margin-top:10px;
+	width: 80% !important;
 }
 
 
@@ -54,5 +54,99 @@ body{
   .form_signin {
     margin-top: 25px;
   }
+}
+
+
+
+
+
+
+/* HOME CSS */
+
+.ceroPadding{
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	list-style: none!important;
+}
+
+.byeMargin{
+	margin-top: 0px !important;
+	margin-bottom: 0px!important;
+}
+
+.byeMarginTop{
+	margin-top: 0px !important;
+}
+
+.hiOrange{
+	color: orange!important;
+}
+
+.hiGray{
+	color: #808080 !important;
+}
+
+.btnListView{
+	width: 27px !important !important;
+	height: 30px !important;
+    padding: 0px !important;
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;	
+}
+
+.btnCart{
+	padding: 0px !important;
+	border: 0px !important;	
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+	width: 35px !important;
+    height: 35px !important;
+}
+
+.headerList{
+	padding-top:5px !important; 
+    padding-bottom: 5px !important;
+    height: 20px !important;
+    font-size: 1.1em !important;
+}
+
+.notification{
+	height: 20px !important;
+	padding: 0px !important;
+	
+	width: 20px !important;
+	background-color: orange !important;
+}
+
+.primerElement{
+	height: 35px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    list-style: none !important;
+}
+
+.imgListView{
+	width: 20px !important;
+    height: 20px !important;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+
+.imgUnder{
+	padding-bottom: 0px !important;
+    padding-top: 5px !important;
+    margin-left: 5px !important;
+}
+
+.imgCart{
+	padding-bottom: 0px !important;              
+    width: 34px !important;
+    height: 35px !important;
+}
+
+.listBest{
+	padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    list-style: none !important;
 }
 
