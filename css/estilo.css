@@ -24,10 +24,10 @@
 
 .btn{
 	border-radius: 0 !important;
-	background-color: orange !important;
+	background-color: darkorange !important;
 	border: 0 !important;
 	color: white !important;
-	width: 87%;
+	width: 87% !important;
 	height: 35px;
 	line-height: 2.2em !important;
 }
