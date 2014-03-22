@@ -18,15 +18,26 @@ body{
 	background-color:white;
 	border-radius: 6px;
 	padding-top: 25px;
-	margin-top: 35%;
+	margin-top: 40%;
+}
 
+.btn{
+	border-radius: 0 !important;
+	background-color: orange !important;
+	border: 0 !important;
 }
 
 .form_input{
 	width: 80%;
 	border-radius: 1px;
-	height: 30px;
-	font-size: 1px;	
+	height: 30px !important;
+	font-size: 1px;
+	line-height: 1.5em !important;
+}
+
+.form_input:focus{
+	border: 0 !important;
+
 }
 
 .img-underground{
@@ -41,6 +52,7 @@ body{
 
 @media (min-width: 400px) {
   .form_signin {
-    margin-top: 5px;
+    margin-top: 25px;
   }
 }
+
