@@ -9,6 +9,14 @@
 	background-color: rgba(0,0,0,0.07);
 }
 
+#slide-menu{
+	position:fixed;
+    height:100%;
+    width:0px;
+    left:0px;
+    overflow:hidden;
+}
+
 .contain{
 	margin: auto;
 	width: 90% !important;

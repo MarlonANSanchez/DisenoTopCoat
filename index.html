@@ -16,16 +16,9 @@
    
  <div id="indice" data-role="page">
   
-  <h3 class="topcoat-list__header headerList">
-
-        Welcome        
-        <div style="float: right;height: 20px;">
-          <img src="res/05.png" width="30px" height="20px">
-          <span class="topcoat-notification notification center">1</span>
-        </div>
-        
-
-      </h3>
+  <h3 class="topcoat-list__header headerList hiOrange" style="padding-left:0px !important;">
+    <span style="margin-left:5%">Log In</span>        
+  </h3>
   
   <div class="contain">
    <form class="form_signin">   
@@ -46,7 +39,13 @@
 <div id="casa" data-role="page" data-theme="d">  
     
     <!-- Header con topcoat-->
-
+	  <div id="slide-menu">
+		<li>elemento 1</li>	
+		<li>elemento 2</li>
+		<li>elemento 3</li>
+		<li>elemento 4</li>
+	  </div>
+	  
     <div class="topcoat-list">
 
       <h3 class="topcoat-list__header headerList">
@@ -60,9 +59,11 @@
 
       </h3>
       
+	 
+	  
       <li class="topcoat-list__item primerElement">
            <div style="float: left;padding-top: 2px;">
-            <button class="topcoat-button--quiet ui-btn ui-shadow ui-corner-all btnListView">
+            <button id="slide" class="topcoat-button--quiet ui-btn ui-shadow ui-corner-all btnListView">
               <img src="res/01.png" alt="Image" width="25px" height="25px" class="imgListView">
             </button>
           </div>
@@ -74,7 +75,7 @@
             </button>
           </div>
       </li>
-
+		
       <li class="topcoat-list__item listBest">
          <h3 class="byeMargin hiOrange">Best Seller</h3>
       </li> 
@@ -180,6 +181,6 @@
     <script src="js/jquery.js"></script>
     <script src="js/jquery.mobile.js"></script>
         <link rel="stylesheet" href="css/jquery.mobile.css" />
-
+	<script src="js/eventos.js"></script>
 </body>
 </html>
