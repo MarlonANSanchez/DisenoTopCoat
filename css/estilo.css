@@ -13,7 +13,8 @@
 	position:fixed;
     height:100%;
     width:0px;
-    left:0px;
+    left:-2px;
+    border-right: 2px solid grey;
     overflow:hidden;
 }
 
@@ -182,4 +183,23 @@
 	table td h2{
 		font-size: 12px;
 	}
+}
+
+
+/* 
+
+	CSS Slide menu
+
+*/
+
+.goodPadding{
+	padding-top:6px !important; 
+	padding-bottom: 6px !important;
+}
+
+#slide-menu li{
+	padding-bottom: 10px;
+	border-top-width: 0px;
+	padding-top: 10px;
+	font-size: 0.9em !important;
 }
