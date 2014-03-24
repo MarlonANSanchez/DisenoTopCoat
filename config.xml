@@ -6,7 +6,7 @@
         id        = "com.sena.app"
         version   = "1.0.0">
 
-    <name>Diseño Topcoat</name>
+    <name>Design Topcoat</name>
 
     <description>
         Diseño responsivo para mobile con framework TopCoat.
