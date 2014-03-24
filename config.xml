@@ -6,14 +6,14 @@
         id        = "com.sena.app"
         version   = "1.0.0">
 
-    <name>App Sena</name>
+    <name>Diseño Topcoat</name>
 
     <description>
-        Este es un ejemplo de una aplicacion para el Sena.
+        Diseño responsivo para mobile con framework TopCoat.
     </description>
 
     <author href="http://sena.edu.co" email="soporte@sena.com">
-        ADSI 395992
+        Sebastian && Marlon
     </author>
 
     <!--
