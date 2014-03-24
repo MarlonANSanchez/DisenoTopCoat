@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
   $('#slide').click(function() {
-	if($("#casa").css("left") >= "0"){
+	if($("#casa").css("left") >= "1%"){
 		$('#casa').animate({
 		left: "-=33%",
 		}, 500);
