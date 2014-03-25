@@ -1,21 +1,6 @@
 /* INICIAR SESION CSS */
-
-@font-face{
-	font-family: OpenSans;
-	src: "../font/OpenSans-Regular.ttf";
-}
-
-#indice{
+#contenedor{
 	background-color: rgba(0,0,0,0.07);
-}
-
-#slide-menu{
-	position:fixed;
-    height:100%;
-    width:0px;
-    left:-2px;
-    border-right: 2px solid grey;
-    overflow:hidden;
 }
 
 .contain{
@@ -24,7 +9,7 @@
     left: 50%;
     height: 30%;
     width: 90%;
-    margin-top: -22%;
+    margin-top: -15%;
     margin-left: -45%;	
 }
 
@@ -36,7 +21,7 @@
 }
 
 .btn{
-	width: 88% !important;
+	width: 100% !important;
 	border-radius: 0 !important;
 	background-color: darkorange !important;
 	border: 0 !important;
@@ -55,7 +40,6 @@
 
 .form_input:focus{
 	border: 0 !important;
-
 }
 
 .img-underground{
