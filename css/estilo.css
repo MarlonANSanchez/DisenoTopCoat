@@ -21,7 +21,6 @@
 }
 
 .btn{
-	width: 85% !important;
 	border-radius: 0 !important;
 	background-color: darkorange !important;
 	border: 0 !important;
@@ -31,7 +30,6 @@
 }
 
 .form_input{
-	width: 90% !important;
 	border-radius: 1px !important;
 	height: 30px !important;
 	font-size: 12px !important;
