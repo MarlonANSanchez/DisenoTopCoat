@@ -130,6 +130,7 @@
     padding-top: 5px !important;
     padding-bottom: 5px !important;
     list-style: none !important;
+    border-top: 1px solid #9daca9 !important;
 }
 
 .imgListView{
