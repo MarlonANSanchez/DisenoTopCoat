@@ -30,6 +30,11 @@
 	line-height: 2.2em !important;
 }
 
+
+.btn-an:active{
+	box-shadow: 0 5px 10px darkorange;
+}
+
 .form_input{
 	width: 90% !important;
 	border-radius: 1px !important;
@@ -106,7 +111,7 @@
 	height: 20px !important;
 	padding: 1px !important;	
 	width: 20px !important;
-	background-color: orange !important;
+	background-color: darkorange !important;
 }
 
 .primerElement{
@@ -176,3 +181,33 @@
 	padding-top: 10px;
 	font-size: 0.9em !important;
 }
+
+
+/* CSS MENU */
+
+#cuerpo{
+	margin: auto;
+	width: 90%;
+}
+
+.nav-slide li{
+	display: inline-block;
+	border-radius: 100%;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	background: grey;
+}
+
+
+.nav-slide li:active{
+	background-color: darkorange !important;
+}
+
+.price{
+	color: darkorange;
+	font-size: 32px;
+}
+
+
+
