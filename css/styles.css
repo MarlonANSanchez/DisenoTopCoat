@@ -1,8 +1,99 @@
+.princial{
+	width: 90%;
+}
+
+.contenedor{
+	position: relative;
+	width: 100%;
+	height: 200px;
+}
+
+.paddBlack{
+	position: absolute;
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	width: 100%;
+	height: 20%;
+	top: 80%;
+}
+
+.primerSeccion{
+	list-style: none !important; 
+	padding-top: 2px !important; 
+	padding-bottom: 2px;
+}
+
+.tamanoBtn{
+	height: 25px;
+	width: 25% !important;
+	background-color: darkorange !important;
+	line-height: 0.5em !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	border-radius: 2px !important;
+	color: #000 !important;
+}
+
+.count{
+	display:inline-block;
+	width:120px;
+	
+	font-size:85%;
+	vertical-align: top
+}
+
+.count ul{
+	margin: 0px;
+	padding-left: 5px;	
+	padding-top: 1.5px;
+}
+
+.count li{
+	display:inline-block;
+	width: 30px;
+}
+
+/*Prueba*/
+
+#priceMore p{
+	font-size: 110% !important;
+	color: #f39412;
+}
+
+.inside{
+			margin-left: 10px;
+		}
+
+		.time{
+			float: right;
+			width: 30%;
+		}
+
+		.tabla{
+			text-align: center;
+		}
+		.tabla td{
+			padding: 2px;
+			padding-right: 
+		}
+
+		.tabla p{
+			font-size: 60%;
+			color: #fff;
+			margin: 0px;
+		}
+
+/*Cierre Prueba */
+
+
+
+
+
 /* INICIAR SESION CSS */
 #contenedor{
 	background-color: rgba(0,0,0,0.07);
 }
-
 .contain{
 	position:absolute;
     top:50%;
@@ -57,7 +148,6 @@
 	width: 80% !important;
 }
 
-
 /* HOME CSS */
 
 .ceroPadding{
@@ -103,14 +193,15 @@
 .headerList{
 	padding-top:5px !important; 
     padding-bottom: 5px !important;
-    height: 20px !important;
-    font-size: 1.1em !important;
+    height: 12px !important;
+    font-size: 0.8em !important;
+	background-color: rgba(0,0,0,0.01) !important;
 }
 
 .notification{
-	height: 20px !important;
-	padding: 1px !important;	
-	width: 20px !important;
+	height: 15px !important;
+	padding: 0px !important;	
+	width: 15px !important;
 	background-color: darkorange !important;
 }
 
@@ -185,29 +276,70 @@
 
 /* CSS MENU */
 
-#cuerpo{
-	margin: auto;
-	width: 90%;
+.nav-slide ul{
+    padding-left:0
 }
 
 .nav-slide li{
 	display: inline-block;
-	border-radius: 100%;
+	border-radius: 100% !important;
 	width: 10px;
 	height: 10px;
-	margin-right: 5px;
-	background: grey;
+	margin-left:5px;
+	background: rgba(0,0,0,0.3);
 }
 
-
 .nav-slide li:active{
+    background-color: darkorange !important;
+}
+
+.nav-slide li:focus{
 	background-color: darkorange !important;
 }
 
-.price{
-	color: darkorange;
-	font-size: 32px;
+.btn-group{
+	margin-top: 0;
+	width:30%;
+	font-size:80%;
+	border-radius: 3px !important;
 }
+
+.btn-group:focus{
+	font-weight:  bold
+}
+
+.price{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size:100%
+}
+
+.price span{
+	color: darkorange;
+	font-size: 200%;
+	vertical-align: middle;
+}
+
+.parragraph{
+	margin-top: -10px;
+	text-align:justify;
+	margin-bottom: -10px;
+	font-size: 98% !important;
+}
+
+.text-tab{
+	margin-top: 5px;
+	text-align:justify
+}
+
+@media (max-width: 500px){
+	.btn-group{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		background-color:blue;
+	}
+}
+
 
 
 
