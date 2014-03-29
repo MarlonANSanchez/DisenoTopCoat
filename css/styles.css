@@ -333,7 +333,7 @@
 	.btn-group{
 		padding-left: 0 !important;
 		padding-right: 0 !important;
-		font-size:75% !important
+		font-size:75% !important;
 	}
 }
 
@@ -348,10 +348,30 @@
 	.text-tab{
 		font-size: 100%;
 	}
-	.parragraph{
-		font-size: 355%;		
+	.btn-group{
+		padding-left: 0;
+		padding-right: 0;
+		font-size:95%;
 	}
+
 }	
 
+@media (max-width: 1280px){
+	.price{
+		font-size: 150%
+	}
+	.price span{
+		font-size: 250%;
+	}
+
+	.text-tab{
+		font-size: 120%;
+	}
+	.btn-group{
+		padding-left: 0;
+		padding-right: 0;
+		font-size:115%;
+	}
+}	
 
 
