@@ -353,6 +353,9 @@
 		padding-right: 0;
 		font-size:95%;
 	}
+	.parragraph{
+		font-size: 150%
+	}
 
 }	
 
@@ -371,6 +374,9 @@
 		padding-left: 0;
 		padding-right: 0;
 		font-size:115%;
+	}
+	.parragraph{
+		font-size: 200%
 	}
 }	
 
