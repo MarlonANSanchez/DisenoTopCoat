@@ -337,6 +337,21 @@
 	}
 }
 
+@media (max-width: 750px){
+	.price{
+		font-size: 125%
+	}
+	.price span{
+		font-size: 210%;
+	}
+
+	.text-tab{
+		font-size: 100%;
+	}
+	.parragraph{
+		font-size: 355%;		
+	}
+}	
 
 
 
