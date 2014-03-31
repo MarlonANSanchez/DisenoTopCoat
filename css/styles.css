@@ -1,0 +1,388 @@
+.contenedor{
+	position: relative;
+	width: 100%;
+	height: 200px;
+}
+
+.paddBlack{
+	position: absolute;
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	width: 100%;
+	height: 20%;
+	top: 80%;
+}
+
+.primerSeccion{
+	list-style: none !important; 
+	padding-top: 2px !important; 
+	padding-bottom: 2px;
+}
+
+.tamanoBtn{
+	height: 25px;
+	width: 25% !important;
+	background-color: darkorange !important;
+	line-height: 0.5em !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	border-radius: 2px !important;
+	color: #000 !important;
+}
+
+.count{
+	display:inline-block;
+	width:120px;
+	
+	font-size:85%;
+	vertical-align: top
+}
+
+.count ul{
+	margin: 0px;
+	padding-left: 5px;	
+	padding-top: 1.5px;
+}
+
+.count li{
+	display:inline-block;
+	width: 30px;
+}
+
+/*Prueba*/
+
+#priceMore p{
+	font-size: 110% !important;
+	color: #f39412;
+}
+
+.inside{
+			margin-left: 10px;
+		}
+
+		.time{
+			float: right;
+			width: 30%;
+		}
+
+		.tabla{
+			text-align: center;
+		}
+		.tabla td{
+			padding: 2px;
+			padding-right: 
+		}
+
+		.tabla p{
+			font-size: 60%;
+			color: #fff;
+			margin: 0px;
+		}
+
+/*Cierre Prueba */
+
+
+
+
+
+/* INICIAR SESION CSS */
+#contenedor{
+	background-color: rgba(0,0,0,0.07);
+}
+.contain{
+	position:absolute;
+    top:50%;
+    left: 50%;
+    height: 30%;
+    width: 90%;
+    margin-top: -22%;
+    margin-left: -45%;	
+}
+
+.form_signin{
+	background-color:white;
+	border-radius: 6px;
+	padding-top: 20px;
+	padding-bottom: 15px;	
+}
+
+.btn{
+	width: 100% !important;
+	border-radius: 0 !important;
+	background-color: darkorange !important;
+	border: 0 !important;
+	color: white !important;
+	height: 35px;
+	line-height: 2.2em !important;
+}
+
+.btn-an:active{
+	box-shadow: 0 5px 10px darkorange;
+}
+
+.form_input{
+	width: 90% !important;
+	border-radius: 1px !important;
+	height: 30px !important;
+	font-size: 12px !important;
+	line-height: 1.5em !important;
+}
+
+.form_input:focus{
+	border: 0 !important;
+}
+
+.img-underground{
+	width:90%;
+	height:30px;
+}
+
+.spacing{
+	margin-top:10px;
+	width: 80% !important;
+}
+
+/* HOME CSS */
+
+.ceroPadding{
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	list-style: none!important;
+}
+
+.byeMargin{
+	margin-top: 0px !important;
+	margin-bottom: 0px!important;
+}
+
+.byeMarginTop{
+	margin-top: 0px !important;
+}
+
+.hiOrange{
+	color: orange!important;
+}
+
+.hiGray{
+	color: #808080 !important;
+}
+
+.btnListView{
+	width: 27px !important !important;
+	height: 30px !important;
+    padding: 0px !important;
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;	
+}
+
+.btnCart{
+	padding: 0px !important;
+	border: 0px !important;	
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+	width: 35px !important;
+    height: 35px !important;
+}
+
+.headerList{
+	padding-top:5px !important; 
+    padding-bottom: 5px !important;
+    height: 12px !important;
+    font-size: 0.8em !important;
+	background-color: rgba(0,0,0,0.01) !important;
+}
+
+.notification{
+	height: 15px !important;
+	padding: 0px !important;	
+	width: 15px !important;
+	background-color: darkorange !important;
+}
+
+.primerElement{
+	height: 35px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    list-style: none !important;
+    border-top: 1px solid #9daca9 !important;
+}
+
+.imgListView{
+	width: 20px !important;
+    height: 20px !important;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+
+.imgUnder{
+	padding-bottom: 0px !important;
+    padding-top: 5px !important;
+    margin-left: 5px !important;
+}
+
+.imgCart{
+	padding-bottom: 0px !important;              
+    width: 34px !important;
+    height: 35px !important;
+}
+
+.listBest{
+	padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    list-style: none !important;
+}
+
+@media (max-width: 630px){
+	table img{
+		width: 80px;
+		height: 80px;
+	}
+	table p{
+		font-size: 10px;
+	}
+	table td h3{
+		font-size: 13px;
+	}
+	table td h2{
+		font-size: 12px;
+	}
+}
+
+
+/* 
+
+	CSS Slide menu
+
+*/
+
+.goodPadding{
+	padding-top:6px !important; 
+	padding-bottom: 6px !important;
+}
+
+#slide-menu li{
+	padding-bottom: 10px;
+	border-top-width: 0px;
+	padding-top: 10px;
+	font-size: 0.9em !important;
+}
+
+
+/* CSS MENU */
+
+.nav-slide ul{
+    padding-left:0
+}
+
+.nav-slide li{
+	display: inline-block;
+	border-radius: 100% !important;
+	width: 10px;
+	height: 10px;
+	margin-left:5px;
+	background: rgba(0,0,0,0.3);
+}
+
+.nav-slide li:active{
+    background-color: darkorange !important;
+}
+
+.nav-slide li:focus{
+	background-color: darkorange !important;
+}
+
+.btn-group{
+	margin-top: 0;
+	width:30%;
+	font-size:70%;
+	border-radius: 3px !important;
+}
+
+.btn-group:hover{
+	background-color: rgba(0,0,0,0.1) !important;
+}
+
+
+.btn-group:focus{
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.price{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size:100%
+}
+
+.price span{
+	color: darkorange;
+	font-size: 200%;
+	vertical-align: middle;
+}
+
+.parragraph{
+	margin-top: -10px;
+	text-align:justify;
+	margin-bottom: -10px;
+	font-size: 98% !important;
+}
+
+.text-tab{
+	margin-top: 5px;
+	text-align:justify;
+	font-size: 100%
+}
+
+@media (max-width: 450px){
+	.btn-group{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		font-size:75% !important;
+	}
+}
+
+@media (max-width: 750px){
+	.price{
+		font-size: 125%
+	}
+	.price span{
+		font-size: 210%;
+	}
+
+	.text-tab{
+		font-size: 100%;
+	}
+	.btn-group{
+		padding-left: 0;
+		padding-right: 0;
+		font-size:95%;
+	}
+	.parragraph{
+		font-size: 150%
+	}
+
+}	
+
+@media (max-width: 1280px){
+	.price{
+		font-size: 150%
+	}
+	.price span{
+		font-size: 250%;
+	}
+
+	.text-tab{
+		font-size: 120%;
+	}
+	.btn-group{
+		padding-left: 0;
+		padding-right: 0;
+		font-size:115%;
+	}
+	.parragraph{
+		font-size: 200%
+	}
+}	
+
+
