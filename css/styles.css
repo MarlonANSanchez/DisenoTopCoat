@@ -1,3 +1,219 @@
+.pull-right{
+	float: right;
+}
+
+.pull-left{
+	float: left;
+}
+
+/*Header */
+
+.headerList{
+	padding-bottom: 5px !important;
+    height: 12px;
+    background-color: rgba(0,0,0,0.01) !important;
+}
+
+.message{
+	width:20px;
+	height:15px;
+}
+
+.notification{
+	height: 15px ;
+	padding: 0px !important;	
+	width: 15px;
+	background-color: darkorange !important;
+}
+
+.notifications{
+	float: right;
+	height: 20px;
+}
+
+
+.primerElement{
+	padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    list-style: none;
+    border-top: 1px solid #9daca9 !important;
+}
+
+.slide-button{
+	float: left;
+	padding-top: 2px !important;
+}
+
+.imgListView{
+	width: 20px;
+    height: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.btnListView{
+	height: 30px;
+    padding: 0px !important;		
+}
+
+
+.imgCart{
+	padding-bottom: 0px;              
+    width: 34px;
+    height: 35px;
+}
+
+.btnCart{
+	padding: 0px !important;
+	border: 0px !important;	
+	width: 35px;
+    height: 35px;
+}
+/* /Header */
+
+/* Index */
+
+.primerSeccion{
+	list-style: none !important; 
+	padding-top: 2px !important; 
+	padding-bottom: 2px;
+}
+
+.index-title{
+	font-size: 200%;
+	margin-top: 10px; 
+	margin-bottom:5px; 
+	color: #6b0100
+}
+
+.count{
+	display:inline-block;
+	width:120px;
+	font-size:85%;
+	vertical-align: top
+}
+
+.count ul{
+	margin: 0px;
+	padding-left: 5px;	
+	padding-top: 1.5px;
+}
+
+.count li{
+	display:inline-block;
+	width: 30px;
+}
+
+.cajaViewOffer{
+	width: 45%;
+	float:right; 
+	vertical-align: bottom; 
+    display: inline;
+}
+
+.boxOrangeView{
+	color: #000; 
+    background-color: darkorange;
+    width: 50%; 
+    font-size: 150%;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right:20px;
+}
+
+.boxPriceView{
+	font-size: 200%;
+	color: #f39412; 
+    display: inline; 
+    vertical-align: bottom;
+}
+
+.text-bestSeller{
+	display: inline;
+	color: #f58220;
+}
+
+.text-seeAll{
+	float:right;
+	margin-top: 0px; 
+	color: #999a9a
+}
+
+.content-offer{
+	position: relative;
+	width:100% ; 
+    height: 375px; 
+    margin-right:0px;  
+    background-color: white; 
+}
+
+.offers{
+	margin-left: 10%; 
+	margin-right:10%;
+}
+
+.contenido2{
+	margin-left: 5%; 
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.btn-slide{
+	width: 100% !important;
+	height: 375px;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	border-radius:0px !important;
+	border: 0px !important;
+}
+
+.encimaIzq{
+	width: 10% !important;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+}
+
+.encimaDere{
+	width: 10% !important;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 90%;
+}
+
+.imgMiddle{
+	width: 100%;
+	height: 150px; 
+}
+
+.primerP{
+	width: 40%;
+	z-index: 1;
+	position: absolute;;
+	top: 80%;
+	left: 10%;
+	font-size: 200%;
+}
+
+.segundaP{
+	width: 40%;
+	z-index: 1;
+	position: absolute;;
+	top: 80%;
+	left: 50%;
+	font-size: 200%;
+}
+
+.recommended h3{
+	font-size: 130%;
+}
+
+/* /Index */
+
+
+
 .contenedor{
 	position: relative;
 	width: 100%;
@@ -14,12 +230,6 @@
 	top: 80%;
 }
 
-.primerSeccion{
-	list-style: none !important; 
-	padding-top: 2px !important; 
-	padding-bottom: 2px;
-}
-
 .tamanoBtn{
 	height: 25px;
 	width: 25% !important;
@@ -31,35 +241,18 @@
 	color: #000 !important;
 }
 
-.count{
-	display:inline-block;
-	width:120px;
-	
-	font-size:85%;
-	vertical-align: top
-}
 
-.count ul{
-	margin: 0px;
-	padding-left: 5px;	
-	padding-top: 1.5px;
-}
-
-.count li{
-	display:inline-block;
-	width: 30px;
-}
 
 /*Prueba*/
 
-#priceMore p{
-	font-size: 110% !important;
-	color: #f39412;
-}
-
-.inside{
-			margin-left: 10px;
+		#priceMore p{
+			font-size: 110% !important;
+			color: #f39412;
 		}
+
+		.inside{
+					margin-left: 10px;
+				}
 
 		.time{
 			float: right;
@@ -169,63 +362,10 @@
 	color: #808080 !important;
 }
 
-.btnListView{
-	width: 27px !important !important;
-	height: 30px !important;
-    padding: 0px !important;
-	margin-bottom: 0px !important;
-	margin-top: 0px !important;	
-}
-
-.btnCart{
-	padding: 0px !important;
-	border: 0px !important;	
-	margin-bottom: 0px !important;
-	margin-top: 0px !important;
-	width: 35px !important;
-    height: 35px !important;
-}
-
-.headerList{
-	padding-top:5px !important; 
-    padding-bottom: 5px !important;
-    height: 12px !important;
-    font-size: 0.8em !important;
-	background-color: rgba(0,0,0,0.01) !important;
-}
-
-.notification{
-	height: 15px !important;
-	padding: 0px !important;	
-	width: 15px !important;
-	background-color: darkorange !important;
-}
-
-.primerElement{
-	height: 35px !important;
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
-    list-style: none !important;
-    border-top: 1px solid #9daca9 !important;
-}
-
-.imgListView{
-	width: 20px !important;
-    height: 20px !important;
-    padding-bottom: 5px !important;
-    padding-top: 5px !important;
-}
-
 .imgUnder{
 	padding-bottom: 0px !important;
     padding-top: 5px !important;
     margin-left: 5px !important;
-}
-
-.imgCart{
-	padding-bottom: 0px !important;              
-    width: 34px !important;
-    height: 35px !important;
 }
 
 .listBest{

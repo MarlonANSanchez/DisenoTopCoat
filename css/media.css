@@ -1,0 +1,251 @@
+
+
+/* @media for tablets: Prueba tablet 7" */
+
+@media (min-width: 650px){
+
+	.paddBlack{
+		top: 85%;
+		padding-top: 5px;
+	}
+
+	.contenedor{
+		height: 350px;
+	}
+
+	.paddBlack{
+		height: 15%;
+	}
+
+	.content2 h1{
+		font-size: 300%;
+	}
+	.content2 h2{
+		font-size: 200%;
+	}
+
+	.content2 p{
+		font-size: 150%;
+	}
+
+	.content2 h6{
+		font-size: 100%;
+	}
+
+	.imgMiddle{
+		height: 200px;
+	}
+
+	.fondoBlanco{
+		height: 500px;
+	}
+
+	.btn-slide{
+		height: 500px;
+	}
+
+	.primerP{
+		top: 85%;
+		font-size: 200% !important;
+	}
+
+	.segundaP{
+		top: 85%;
+		font-size: 200% !important;
+	}
+
+	
+}
+
+/* Termina @media para Tablets*/
+
+@media (max-width: 650px){
+	.boxOrangeView{
+		font-size: 130%;
+	}
+
+	..boxPriceView{
+		margin-left: 10%;
+	}
+
+	.paddBlack{
+		padding-top: 5px;
+	}
+
+}
+
+
+@media (max-width: 550px){
+
+	.cajaViewOffer{
+		width: 50%;
+	}
+	.cajaViewOffer h1{
+		font-size: 180%;
+	}
+
+	.boxOrangeView{
+		font-size: 110%;
+	}
+
+	.boxPriceView{
+		margin-left: 10%;
+	}
+
+	.paddBlack{
+		padding-top: 5px;
+	}
+}
+
+/* @media para celulares de tamaño medio*/
+@media (max-width: 450px){
+	.count{
+		font-size: 65%;
+		width: 100px;
+		padding-left: 5px;
+		height: 15%;
+		top: 85%;
+	}
+
+	.count li{
+		padding-left: 0px !important;	
+	}
+
+	.count ul{
+		padding-left: 0px !important;
+	}
+
+	.cajaViewOffer{
+		width: 50%;
+	}
+
+	.cajaViewOffer h1{
+		font-size: 135%;
+	}
+
+	.pruebaBtn{
+		width: 50%;
+		height: 25px;
+		margin-top: 0px !important; 
+		margin-right: 10px !important; 
+	}
+	
+	.primerP{
+		top: 85%;
+		font-size: 150% !important;
+	}
+
+	.segundaP{
+		top: 85%;
+		font-size: 150% !important;
+	}
+
+	.boxOrangeView{
+		font-size: 90%;
+		margin-right: 10px;
+	}
+
+	.paddBlack{
+		height: 15%;
+		top: 85%;
+		padding-top: 5px;
+	}
+
+
+}
+
+/* @media para celulares de tamaño pequeño*/
+
+@media (max-width: 350px){
+	.count{
+		font-size: 55%;
+		width: 70px;
+		padding-left: 5px;
+		height: 50% !important;
+	}
+
+	.count li{
+		padding-left: 0px !important;	
+		width: 20px;
+	}
+
+	.count ul{
+		padding-left: 0px !important;
+	}
+
+	.cajaViewOffer{
+		width: 50%;
+	}
+
+	.cajaViewOffer h1{
+		font-size: 115%;
+	}
+
+	.pruebaBtn{
+		width: 50%;
+		height: 20px;
+		margin-top: 0px !important; 
+		margin-right: 0px !important; 
+	}
+
+	.titleSeccion{
+		font-size: 150%;
+	}
+	.paddBlack{
+		top: 85%;
+		height: 15%;
+		padding-top: 2.5px;
+	}
+
+	.contenedor{
+		height: 180px;
+	}
+
+	.imgMiddle{
+		height: 100px;
+	}
+
+	.content2 h1{
+		font-size: 130%;
+	}
+	.content2 h2{
+		font-size: 120%;
+	}
+
+	.content2 p{
+		font-size: 90%;
+	}
+
+	.content2 h6{
+		font-size: 70%;
+	}
+
+	.fondoBlanco{
+		height: 275px;
+	}
+
+	.btn-slide{
+		height: 275px;
+	}
+
+	.primerP{
+		top: 87%;
+		font-size: 100% !important;
+	}
+
+	.segundaP{
+		top: 87%;
+		font-size: 100% !important;
+	}
+
+	.recommended{
+		font-size: 80%;
+	}
+
+	.boxOrangeView{
+		font-size: 70%;
+		margin-right: 10px;
+		margin-top: 3px;
+	}
+
+}
